@@ -7,7 +7,7 @@ const Header = (props) => (
         <span className="logo"><img src={logo} alt="" /></span>
         <h1>Stellar</h1>
         <h2>Masters Project</h2>
-        <p>Just another free, fully responsive site template<br />
+        <p>Aug 2019<br />
         design by <a href="https://html5up.net">HTML5 UP</a>.</p>
     </header>
 )
