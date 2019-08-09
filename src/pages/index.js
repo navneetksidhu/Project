@@ -6,6 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+import D3graph from '../components/D3graph'
 import pic01 from '../assets/images/pic01.jpg'
 
 class Index extends React.Component {
@@ -45,16 +46,15 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Click on nodes to see relations </h2>
+                  <D3graph/>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              
             </div>
           </section>
 
